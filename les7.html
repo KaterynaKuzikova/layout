@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CHERRY_Kuzikova</title>
+        <link rel="icon" href="img_cherry/code-solid.svg" type="image/x-icon">
+        <link rel="stylesheet" href= "css/myfw.css">
+        <link rel="stylesheet" href= "css/les7.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <script src="https://kit.fontawesome.com/82aa6fc7bc.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    </head>
+    <body>
+         <header class="header ">
+            <div class="header-container container">
+                <div class="header_logo">
+                    <h1><a href="#" target="_blank">CHERRY</a></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="loader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <form action="#" method="post" class="header_search">
+                    <input type="search" name="search" placeholder="Search..." class="input_field">
+                     <button type="submit"> 
+                        <i class="fas fa-search" aria-hidden="true"> </i>
+                    </button>
+                </form>
+            </div>
+        </header>
+            <div class="container">
+                <div class="bunner">
+                    <picture>
+                        <source srcset="img_cherry/bunner_320.avif" media="(max-width: 320px)">
+                        <source srcset="img_cherry/bunner_480.avif" media="(max-width: 480px)">
+                        <source srcset="img_cherry/bunner_768.avif" media="(max-width: 768px)">
+                        <source srcset="img_cherry/bunner.avif" media="(min-width: 768px)">
+                        <img src="img_cherry/bunner.jpg" alt="bunner">
+                    </picture>
+                    <div class="bunner-text">
+                        <h1 class="bunner-text_title animate__animated animate__pulse">Eaten berry</h1>
+                        <p class="bunner-text_decription">and go for a walk</p>
+                        <h2 class="bunner-text_title2">Today good weather...</h2>
+                        <p class="bunner-text_description2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita ducimus necessitatibus autem? Sapiente voluptates veniam esse dolorem error. Blanditiis illo maiores quibusdam numquam nam soluta sed assumenda labore iste id?</p>
+                        <button onclick="swa()" type="button" class="mod mod_text">Modal Window</button>
+                    </div>
+                </div>
+                <nav class="main_nav">
+                    <ul class="main_nav-container">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sliders</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Styles</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Cherry</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                    <div class="menu">
+                        <div class="sandw">
+                            <div class="span1 menu__span"></div>
+                            <div class="span2 menu__span"></div>
+                        </div>
+                    </div>
+                    <ul class="mobile_links">
+                        <li class="mobile_links-1">    
+                            <form action="#" method="post" class="mobile-search">
+                                <input type="text" name="search" placeholder="Search..." class="mobile-input_field">
+                                <button type="submit"><i class="fas fa-search" aria-hidden="true"></i></button>
+                            </form>                
+                            <div class="mobile-form"> 
+                                <h3 class="mobile_title">Contact Us</h3>
+                                <form action="#" class="contact-us">
+                                    <input type="text" placeholder="Your Name" class="mobile-contact-us-text">
+                                    <input type="text" placeholder="Daytime Number" class="mobile-contact-us-text">
+                                    <input type="email" placeholder="Email Address" class="mobile-contact-us-text">
+                                    <input type="text" placeholder="City" class="mobile-contact-us-text">
+                                    <div class="mobile-select-wrap">
+                                        <select name="Problem With" class="mobile-contact-us_select-text">
+                                            <option value="Problem-With">Problem With</option>
+                                            <option value="Problem-With">Problem With</option>
+                                            <option value="Problem-With">Problem With</option>
+                                            <option value="Problem-With">Problem With</option>
+                                        </select>
+                                    </div>
+                                    <div class="mobile-select-wrap">
+                                        <select name="Brand" class="mobile-contact-us_select-text">
+                                            <option value="Brand">Brand</option>
+                                            <option value="Brand">Brand</option>
+                                            <option value="Brand">Brand</option>
+                                            <option value="Brand">Brand</option>
+                                        </select>
+                                    </div>
+                                            <button type="submit" class="mobile-contact-us_button-text">
+                                                Lorem ipsum dolor
+                                            </button>
+                                        
+                                </form>
+                            </div>
+                        </li>
+                        <li>                        
+                            <ul class="mobile-nav">
+                                <li>
+                                    <a href="#" target="_blank">Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">Sliders
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">Portfolio
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">Styles
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">Blog
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">Cherry
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">Contact
+                                    </a>
+                                </li>
+                            </ul>  
+                        </li>
+                    </ul>
+                </nav>
+                <div class="breadcrumbs">
+                    <ul class="breadcrumbs-list">
+                        <li class="breadcrumbs-item"><a href="#" target="_blank" class="breadcrumbs-link">Home</a></li>
+                        <li class="breadcrumbs-item"><a href="#" target="_blank" class="breadcrumbs-link">Another page</a></li>
+                        <li class="breadcrumbs-item breadcrumbs-text">This page</li>
+                    </ul>
+                </div>
+                <div class="main_content">
+                    <aside>
+                        <div class="aside-form">
+                        <h3 class="aside_title">Contact Us</h3>
+                            <form action="#" class="contact-us">
+                                <input type="text" placeholder="Your Name" class="contact-us-text">
+                                <input type="text" placeholder="Daytime Number" class="contact-us-text">
+                                <input type="email" placeholder="Email Address" class="contact-us-text">
+                                <input type="text" placeholder="City" class="contact-us-text">
+                                <div class="select-wrap">
+                                    <select name="Problem With" class="contact-us_select-text">
+                                        <option value="Problem-With">Problem With</option>
+                                        <option value="Problem-With">Problem With</option>
+                                        <option value="Problem-With">Problem With</option>
+                                        <option value="Problem-With">Problem With</option>
+                                    </select>
+                                </div>
+                                <div class="select-wrap">
+                                    <select name="Brand" class="contact-us_select-text">
+                                        <option value="Brand">Brand</option>
+                                        <option value="Brand">Brand</option>
+                                        <option value="Brand">Brand</option>
+                                        <option value="Brand">Brand</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="contact-us_button-text">Lorem ipsum dolor</button>
+                            </form>
+                        </div>
+                        <div class="aside_article">
+                            <h3 class="aside_article-text">Headline</h3>
+                            <p class="aside_article-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo veritatis consequuntur eius eum error pariatur quibusdam, hic doloremque, sapiente et officia, minima autem reprehenderit modi
+                                <a href="#" class="aside_article-link">More about</a>
+                            </p>
+                        </div>
+                    </aside>
+                   <main>
+                        <div class="main_info">
+                            <h2>What We Do...</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                                consequat. Duis aute irure dolor in <a href="#">reprehenderit in voluptate velit esse</a> cillum dolore eu fugiat nulla pariatur. 
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="main_gallery">
+                            <div class="main_gallery_item">
+                                <h3 class="main_gallery_title">Admin panel</h3>
+                                <div>
+                                    <picture>
+                                        <source srcset="img_cherry/admin.avif" media="(max-width:768px)">
+                                        <img src="img_cherry/admin.jpg" alt="admin" class="main_gallery_jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="main_gallery_item">
+                                <h3 class="main_gallery_title">Shortcodes</h3>
+                                <div>
+                                    <picture>
+                                        <source srcset="img_cherry/shortcodes.avif" media="(max-width:768px)">
+                                        <img src="img_cherry/shortcodes.jpg" alt="shortcodes" class="main_gallery_jpg">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="main_gallery_item">
+                                <h3 class="main_gallery_title">Videos</h3>
+                                <div>
+                                   <video src="#" controls="controls" poster="img_cherry/videos.png" class="main_gallery_video"></video>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Lists">
+                            <h2>Lists</h2>
+                            <div class="main-Lists">
+                                <div class="main-Lists_container">    
+                                    <h3 class="main-Lists_container-title">List style type circle</h3>
+                                    <ul class="main-Lists_Items">
+                                        <li class="main-Lists_Item"><span>Lorem ipsum dolor sit amet</span></li>
+                                        <li class="main-Lists_Item"><span>Consectetur adipiscing elit</span></li>
+                                        <li class="main-Lists_Item"><span>Facilisis in pretium nisl aliquet</span></li>
+                                        <li class="main-Lists_Item"><span>Nulla volutpat aliquam velit</span></li>
+                                        <li>
+                                            <ul class="main-Lists_Item-ins">
+                                                <li class="main-Lists_Item"><span>Phasellus iaculis neque</span></li>
+                                                <li class="main-Lists_Item"><span>Purus sodales ultricies</span></li>
+                                                <li class="main-Lists_Item"><span>Vestibulum laoreet porttitor</span></li>
+                                            </ul>
+                                        </li>
+                                        <li class="main-Lists_Item"><span>Faucibus porta lacus fringilla vel</span></li>
+                                        <li class="main-Lists_Item"><span>Aenean sit amet erat nunc</span></li>
+                                    </ul>
+                                </div>
+                                <div class="main-Lists_container">
+                                    <h3 class="main-Lists_container-title-2">Unstyled</h3>
+                                        <ul class="main-Lists_Items-2">
+                                            <li class="main-Lists_Item-2"><span>Lorem ipsum dolor sit amet</span></li>
+                                            <li class="main-Lists_Item-2"><span>Consectetur adipiscing elit</span></li>
+                                            <li class="main-Lists_Item-2"><span>Facilisis in pretium nisl aliquet</span></li>
+                                            <li class="main-Lists_Item-2"><span>Nulla volutpat aliquam velit</span></li>
+                                            <li>
+                                                <ul class="main-Lists_Item-ins-2">
+                                                    <li class="main-Lists_Item-2"><span>Phasellus iaculis neque</span></li>
+                                                    <li class="main-Lists_Item-2"><span>Purus sodales ultricies</span></li>
+                                                    <li class="main-Lists_Item-2"><span>Vestibulum laoreet porttitor</span></li>
+                                                </ul>
+                                            </li>
+                                            <li class="main-Lists_Item-2"><span>Faucibus porta lacus fringilla vel</span></li>
+                                            <li class="main-Lists_Item-2"><span>Aenean sit amet erat nunc</span></li>
+                                        </ul>
+                                </div>
+                                <div class="main-Lists_container">
+                                    <h3 class="main-Lists_container-title-3">Ordered</h3>
+                                        <ol class="main-Lists_Items-3">
+                                            <li class="main-Lists_text">Lorem ipsum dolor sit amet</li>
+                                            <li class="main-Lists_text">Consectetur adipiscing elit</li>
+                                            <li class="main-Lists_text">Facilisis in pretium nisl aliquet</li>
+                                            <li class="main-Lists_text">Nulla volutpat aliquam velit</li>
+                                            <li class="main-Lists_text">Faucibus porta lacus fringilla vel</li>
+                                            <li class="main-Lists_text">Aenean sit amet erat nunc</li>
+                                        </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main_table">
+                            <h2>Table</h2>
+                            <table class="table_container">
+                                <thead class="thead_table">
+                                    <tr>
+                                        <th class="thead_table-cell-1 ThL ThT">№</th>
+                                        <th class="thead_table-cell-2 ThT">Toranton rate</th>
+                                        <th class="thead_table-cell-3 ThT">Puranocak var berond</th>
+                                        <th class="thead_table-cell-4 ThT">Intime modular to cavan</th>
+                                        <th class="thead_table-cell-5 ThT ThR">Language</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="tbody_table-cell-1 h35 ThL">1</td>
+                                        <td class="tbody_table-cell-2 h35">Lorem ipsum</td>
+                                        <td class="tbody_table-cell-3 h35">Consectetur adipiscing elit</td>
+                                        <td class="tbody_table-cell-4 h35">Consectetur adipiscing</td>
+                                        <td class="tbody_table-cell-5 h35 ThR">
+                                            <a href="#" target="_blank">Lorem ipsum</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody_table-cell-1 h35 ThL">2</td>
+                                        <td class="tbody_table-cell-2 h35">Modul caram</td>
+                                        <td class="tbody_table-cell-3 h35">Remation vore undocost</td>
+                                        <td class="tbody_table-cell-4 h35">Remation vore undocost</td>
+                                        <td class="tbody_table-cell-5 h35 ThR">
+                                            <a href="#" target="_blank">Modul caram</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody_table-cell-1 h35 ThL">3</td>
+                                        <td class="tbody_table-cell-2 h35">Victorian mor</td>
+                                        <td class="tbody_table-cell-3 h35">Untable via costario more</td>
+                                        <td class="tbody_table-cell-4 h35">Untable via costario more</td>
+                                        <td class="tbody_table-cell-5 h35 ThR">
+                                            <a href="#" target="_blank">Victorian mor</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody_table-cell-1 h35 ThL">4</td>
+                                        <td class="tbody_table-cell-2 h35">Jacon van dor</td>
+                                        <td class="tbody_table-cell-3 h35">Executive live anothre vy</td>
+                                        <td class="tbody_table-cell-4 h35">Executive live anothre</td>
+                                        <td class="tbody_table-cell-5 h35 ThR">
+                                            <a href="#" target="_blank">Jacon van dor</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody_table-cell-1 h35 ThL">5</td>
+                                        <td class="tbody_table-cell-2 h35">Inpuction mian</td>
+                                        <td class="tbody_table-cell-3 h35">Nastiro macon puratece</td>
+                                        <td class="tbody_table-cell-4 h35">Nastiro macon puratece</td>
+                                        <td class="tbody_table-cell-5 h35 ThR">
+                                            <a href="#" target="_blank">Inpuction mian</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody_table-cell-1 h35 ThL">6</td>
+                                        <td class="tbody_table-cell-2 h35">Povatior naron</td>
+                                        <td class="tbody_table-cell-3 h35">Gover nate foracent pore</td>
+                                        <td class="tbody_table-cell-4 h35">Gover nate foracent</td>
+                                        <td class="tbody_table-cell-5 h35 ThR">
+                                            <a href="#" target="_blank">Povatior naron</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tbody_table-cell-1-radius h35 ThL ThB">7</td>
+                                        <td class="tbody_table-cell-2 h35 ThB">Inbug for cars</td>
+                                        <td class="tbody_table-cell-3 h35 ThB">Overview cal the montre</td>
+                                        <td class="tbody_table-cell-4 h35 ThB">Overview cal the montre</td>
+                                        <td class="tbody_table-cell-5-radius h35 ThR ThB">
+                                            <a href="#" target="_blank">Inbug for cars</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="main_article ">
+                            <h3 class="main_article-title"> Headline</h3>
+                            <p class="main_article-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                            <a href="#" class="main_article-link">More about</a>
+                        </div>
+                    </main>
+                </div>
+            </div>
+            <div id="overlay">
+                <div class="popup">
+                  <button class="close" title="Close Window" onclick="swa2()"></button>
+                  <p class="zag">Modal Window</p>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, esse?...</p>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, at....</p>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, libero. ...</p>
+                </div>
+              </div>
+              
+              
+            <footer class="footer">
+                <div class="container footer_container">
+                    <div class="footer-title_1">
+                        <h2>CHERRY Hours</h2>
+                        <h3>We are open 24/7</h3>
+                        <ul class="footer-title_Items-1">
+                            <li class="footer-title_Item-1"><span>Nights! Absolutely No Extra Charge</span></li>
+                            <li class="footer-title_Item-1"><span>Weekends! Absolutely No Extra Charge</span></li>
+                            <li class="footer-title_Item-1"><span>Holidays! Absolutely No Extra Charge</span></li>
+                        </ul>
+                    </div>
+                    <div class="footer-title_2">
+                        <h2>Local <span class="footer-CHERRY">CHERRY</span></h2>
+                        <ul class="footer-title_Items-2">
+                            <li class="footer-title_Item-2"><span>West Hollywood (323) 221-1107</span></li>
+                            <li class="footer-title_Item-2"><span>Beverly Hills (310) 202-5428</span></li>
+                            <li class="footer-title_Item-2"><span>Pasadena (626) 296-2664</span></li>
+                            <li class="footer-title_Item-2"><span>West Hills (805) 531-5083</span></li>
+                            <li class="footer-title_Item-2"><span>Los Angeles (213) 389-4381</span></li>
+                        </ul>
+                        <h3>Call Us Toll Free 1-800-287-0919</h3>
+                    </div>
+                    <div class="footer-title_3">
+                        <h2>Our Los Angeles Location</h2>
+                        <ul class="footer-title_Items-3">
+                            <li class="footer-title_Item-3"><span>Steve Smith</span></li>
+                            <li class="footer-title_Item-3"><span>Hi-Tech Cherry Company</span></li>
+                            <li class="footer-title_Item-3"><a href="#" target="_blank">info@cherrycompany.com</a></li>
+                            <li class="footer-title_Item-3"><span>5104 W. Washington Blvd</span></li>
+                            <li class="footer-title_Item-3"><span>Los Angeles , CA , 90016 United States</span></li>
+                            <li class="footer-title_Item-3"><span>(800) 287-0919</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <a href="https://t.me" target="_blank" title="text to telegram" rel="noopener noreferrer">
+                <div class="telegram-button">
+                    <i class="fa fa-telegram"></i>
+                </div>
+            </a>
+            <script>
+                $(document).ready ( function() {
+                    $(".menu").on('click',function(){
+                         $(this).toggleClass('active');
+                    })
+                });
+            </script>
+
+            <script>
+                var b = document.getElementById('overlay');
+                function swa(){
+                    b.style.visibility = 'visible';
+                    b.style.opacity = '1';
+                    b.style.transition = 'all 0.7s ease-out 0s';
+                }
+                function swa2(){
+                    b.style.visibility = 'hidden';
+                    b.style.opacity = '0';
+                }
+            </script>
+    </body>
+</html>
