@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(87, 92, 172, 0.459);
+}
+
+.wrapper{
+    width: 50rem;
+    margin: 10 auto;
+    padding: 15px 20px;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+    min-width: 100%;
+}

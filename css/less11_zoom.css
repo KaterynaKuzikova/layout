@@ -1,0 +1,10 @@
+.images_set{
+    width: 10rem;
+    height: 15rem;
+}
+
+#zoom_01{
+    max-width: 100%;
+    width: 100%;
+    min-width: 100%;
+}
